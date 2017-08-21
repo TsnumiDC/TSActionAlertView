@@ -55,6 +55,7 @@
     
     TSActionAlertViewBackgroundStyle backgroundStyle;
     TSActionAlertViewTransitionStyle transitionStyle;
+    BOOL isautoHidden = NO;
     
     switch (indexPath.row) {
         case 0:{
@@ -107,6 +108,13 @@
             transitionStyle = TSActionAlertViewTransitionStyleSlideFromTop;
         }
             break;
+        case 10:{
+            backgroundStyle = TSActionAlertViewBackgroundStyleSolid;
+            transitionStyle = TSActionAlertViewTransitionStyleSlideFromTop;
+            isautoHidden = YES;
+        }
+            break;
+            
         default:{
             backgroundStyle = 0;
             transitionStyle = 0;
@@ -116,6 +124,7 @@
     
     TSActionDemoView * demoAlertView  = [TSActionDemoView actionAlertViewWithAnimationStyle:transitionStyle];
     demoAlertView.backgroundStyle = backgroundStyle;
+    demoAlertView.isAutoHidden = isautoHidden;
     
     typeof(TSActionDemoView) __weak *weakView = demoAlertView;
     [demoAlertView setStringHandler:^(TSActionAlertView *alertView,NSString * string){
@@ -151,7 +160,7 @@
     if (_dataArray == nil) {
         NSArray * array = @[
                             @"背景:渐变 动画:上来,然后下去",@"背景:渐变 动画:渐变",@"背景:渐变 动画:弹出",@"背景:渐变 动画:下落",@"背景:渐变 动画:下滑,然后上去",
-                            @"背景:半透明 动画:上来,然后下去",@"背景:半透明 动画:渐变",@"背景:半透明 动画:弹出",@"背景:半透明 动画:下落",@"背景:半透明 动画:下滑,然后上去",
+                            @"背景:半透明 动画:上来,然后下去",@"背景:半透明 动画:渐变",@"背景:半透明 动画:弹出",@"背景:半透明 动画:下落",@"背景:半透明 动画:下滑,然后上去",@"点击背景自动隐藏"
                             ];
         _dataArray = [NSMutableArray arrayWithArray:array];
     }

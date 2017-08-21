@@ -137,6 +137,7 @@ static TSActionAlertView *__si_current_view;
 - (instancetype)initWithAnimationStyle:(TSActionAlertViewTransitionStyle)style{
     if (self = [super init]) {
         self.transitionStyle  =style;
+        _isAutoHidden = NO;
     }
     return self;
 }
@@ -277,7 +278,6 @@ static TSActionAlertView *__si_current_view;
             [self dismissAnimated:YES cleanup:NO]; // dismiss to show next alert view
         }
     }];
-    
 }
 
 - (void)dismissAnimated:(BOOL)animated{
@@ -622,6 +622,13 @@ static TSActionAlertView *__si_current_view;
     void(^completion)(void) = [anim valueForKey:@"handler"];
     if (completion) {
         completion();
+    }
+}
+
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    if (_isAutoHidden) {
+        [self dismissAnimated:YES];
     }
 }
 

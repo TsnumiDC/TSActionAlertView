@@ -28,8 +28,6 @@ typedef NS_ENUM(NSInteger, TSActionAlertViewTransitionStyle) {
     TSActionAlertViewTransitionStyleSlideFromTop,
 };
 
-
-
 @protocol TSActionAlertViewDelegate <NSObject>
 
 @optional
@@ -49,13 +47,14 @@ typedef NS_ENUM(NSInteger, TSActionAlertViewTransitionStyle) {
 @property (nonatomic, assign) TSActionAlertViewTransitionStyle transitionStyle;
 @property (nonatomic, strong) UIView *containerView;//容器视图
 @property (nonatomic, weak) UIWindow *oldKeyWindow;
-
+@property (nonatomic, assign)BOOL isAutoHidden;//是否点击背景隐藏
 /**
  初始化方法,传入一个动画类型
  @param style 动画类型
  @return 初始化的对象
  */
 + (instancetype)actionAlertViewWithAnimationStyle:(TSActionAlertViewTransitionStyle)style;
+- (instancetype)initWithAnimationStyle:(TSActionAlertViewTransitionStyle)style;
 
 //展示和消失
 - (void)dismissAnimated:(BOOL)animated;
