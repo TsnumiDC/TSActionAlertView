@@ -67,6 +67,7 @@
 5. 其他功能
 
 `代理的使用`:定义了代理来在视图的出现,消失的时候进行一些回调
+`点击背景自动隐藏:` 设置属性 isAutoHidden=YES 
 
 遵循协议:TSActionAlertViewDelegate
 
