@@ -4,16 +4,25 @@
 
 1. 弹窗背景有两种  TSActionAlertViewBackgroundStyle
 
-- TSActionAlertViewBackgroundStyleSolid  : 背景半透明
-- TSActionAlertViewBackgroundStyleGradient:背景渐变
+|TSActionAlertViewBackgroundStyle|说明|
+|:------------- | :-------------:|
+ |TSActionAlertViewBackgroundStyleSolid     | 背景半透明|
+| TSActionAlertViewBackgroundStyleGradient | 背景渐变|
+
 
 2. 弹窗的出现动画有五种 TSActionAlertViewTransitionStyle
     
-- TSActionAlertViewTransitionStyleSlideFromBottom : 上来,然后下去
-- TSActionAlertViewTransitionStyleFade            : 渐变
-- TSActionAlertViewTransitionStyleBounce          : 弹出
-- TSActionAlertViewTransitionStyleDropDown        : 下落
-- TSActionAlertViewTransitionStyleSlideFromTop    : 下滑,然后上去
+|TSActionAlertViewTransitionStyle|说明|
+|:---|:---:|
+|TSActionAlertViewTransitionStyleSlideFromBottom|上来,然后下去|
+|TSActionAlertViewTransitionStyleFade|渐变|
+|TSActionAlertViewTransitionStyleBounce|弹出|
+|TSActionAlertViewTransitionStyleDropDown|下落|
+|TSActionAlertViewTransitionStyleSlideFromTop|下滑,然后上去|
+
+
+效果:
+![效果图加载中...](https://github.com/TsnumiDC/TSActionAlertView/blob/master/gifImage.gif?raw=true)
 
 3. 弹窗的用法
 
