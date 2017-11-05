@@ -89,3 +89,4 @@
 ```
 
 > 具体效果请看demo
+> 更多用法: [简书文章地址](http://www.jianshu.com/p/9a08223c70e8)
