@@ -22,7 +22,7 @@
 
 
 效果:
-![效果图加载中...](https://github.com/TsnumiDC/TSActionAlertView/blob/master/gifImage.gif?raw=true)
+![效果图加载中...](https://github.com/TsnumiDC/TSActionAlertView/blob/master/demo_gifs/gifImage.gif?raw=true)
 
 ### 3. 弹窗的用法
 
@@ -90,3 +90,20 @@
 
 > 具体效果请看demo
 > 更多用法: [简书文章地址](http://www.jianshu.com/p/9a08223c70e8)
+> 效果实例 只是一些参考效果,丑是没办法的...
+
+###### 1. 正常弹窗
+![正常弹窗](https://github.com/TsnumiDC/TSActionAlertView/blob/master/demo_gifs/1.%20normal.gif?raw=true)
+
+###### 2. 输入弹窗
+![正常弹窗](https://github.com/TsnumiDC/TSActionAlertView/blob/master/demo_gifs/2.%20input.gif?raw=true)
+
+###### 3. web弹窗
+![正常弹窗](https://github.com/TsnumiDC/TSActionAlertView/blob/master/demo_gifs/3.%20web.gif?raw=true)
+
+###### 4. 下拉列表选项弹窗
+![正常弹窗](https://github.com/TsnumiDC/TSActionAlertView/blob/master/demo_gifs/4.%20pull.gif?raw=true)
+
+###### 5. 跳转弹窗
+![正常弹窗](https://github.com/TsnumiDC/TSActionAlertView/blob/master/demo_gifs/5.%20jump.gif?raw=true)
+
