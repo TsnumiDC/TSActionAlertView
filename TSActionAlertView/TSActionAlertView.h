@@ -10,6 +10,9 @@
 
 #define TSACTIONVIEW_CONTAINER_WIDTH (310.0) //宽度固定一下好了
 
+#define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
+#define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+
 @class TSActionAlertView;
 typedef void(^TSActionAlertViewHandler)(TSActionAlertView *alertView);
 typedef void(^TSActionAlertViewStringHandler)(TSActionAlertView *alertView,NSString * string);

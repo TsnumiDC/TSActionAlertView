@@ -16,6 +16,11 @@
 		FC103E121F42CF7C00526E4E /* TSActionAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC103E0F1F42CF7C00526E4E /* TSActionAlertView.m */; };
 		FC103E131F42CF7C00526E4E /* UIWindow+SIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FC103E111F42CF7C00526E4E /* UIWindow+SIUtils.m */; };
 		FC103E161F42CF8500526E4E /* TSActionDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC103E141F42CF8500526E4E /* TSActionDemoView.m */; };
+		FC8D3F411FD7F6F700AF5B28 /* TSWebActionAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D3F371FD7F6F600AF5B28 /* TSWebActionAlertView.m */; };
+		FC8D3F421FD7F6F700AF5B28 /* TSTaoSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D3F381FD7F6F600AF5B28 /* TSTaoSearchView.m */; };
+		FC8D3F431FD7F6F700AF5B28 /* TSGoodsEditAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D3F3C1FD7F6F700AF5B28 /* TSGoodsEditAlertView.m */; };
+		FC8D3F441FD7F6F700AF5B28 /* TSGoTaobaoAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D3F3E1FD7F6F700AF5B28 /* TSGoTaobaoAlertView.m */; };
+		FC8D3F451FD7F6F700AF5B28 /* TSPullDownActionAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8D3F401FD7F6F700AF5B28 /* TSPullDownActionAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +40,16 @@
 		FC103E111F42CF7C00526E4E /* UIWindow+SIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+SIUtils.m"; sourceTree = "<group>"; };
 		FC103E141F42CF8500526E4E /* TSActionDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSActionDemoView.m; sourceTree = "<group>"; };
 		FC103E151F42CF8500526E4E /* TSActionDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSActionDemoView.h; sourceTree = "<group>"; };
+		FC8D3F371FD7F6F600AF5B28 /* TSWebActionAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSWebActionAlertView.m; sourceTree = "<group>"; };
+		FC8D3F381FD7F6F600AF5B28 /* TSTaoSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTaoSearchView.m; sourceTree = "<group>"; };
+		FC8D3F391FD7F6F600AF5B28 /* TSGoodsEditAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGoodsEditAlertView.h; sourceTree = "<group>"; };
+		FC8D3F3A1FD7F6F600AF5B28 /* TSTaoSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTaoSearchView.h; sourceTree = "<group>"; };
+		FC8D3F3B1FD7F6F700AF5B28 /* TSPullDownActionAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPullDownActionAlertView.h; sourceTree = "<group>"; };
+		FC8D3F3C1FD7F6F700AF5B28 /* TSGoodsEditAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGoodsEditAlertView.m; sourceTree = "<group>"; };
+		FC8D3F3D1FD7F6F700AF5B28 /* TSGoTaobaoAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSGoTaobaoAlertView.h; sourceTree = "<group>"; };
+		FC8D3F3E1FD7F6F700AF5B28 /* TSGoTaobaoAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSGoTaobaoAlertView.m; sourceTree = "<group>"; };
+		FC8D3F3F1FD7F6F700AF5B28 /* TSWebActionAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSWebActionAlertView.h; sourceTree = "<group>"; };
+		FC8D3F401FD7F6F700AF5B28 /* TSPullDownActionAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPullDownActionAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +66,7 @@
 		FC103DCE1F42CF5E00526E4E = {
 			isa = PBXGroup;
 			children = (
+				FC8D3F361FD7F6DA00AF5B28 /* TSActionAlertViewEffects */,
 				FC103E0D1F42CF7C00526E4E /* TSActionAlertView */,
 				FC103DD91F42CF5E00526E4E /* TSAlertActionViewDemo */,
 				FC103DD81F42CF5E00526E4E /* Products */,
@@ -100,6 +116,23 @@
 				FC103E111F42CF7C00526E4E /* UIWindow+SIUtils.m */,
 			);
 			path = TSActionAlertView;
+			sourceTree = "<group>";
+		};
+		FC8D3F361FD7F6DA00AF5B28 /* TSActionAlertViewEffects */ = {
+			isa = PBXGroup;
+			children = (
+				FC8D3F391FD7F6F600AF5B28 /* TSGoodsEditAlertView.h */,
+				FC8D3F3C1FD7F6F700AF5B28 /* TSGoodsEditAlertView.m */,
+				FC8D3F3D1FD7F6F700AF5B28 /* TSGoTaobaoAlertView.h */,
+				FC8D3F3E1FD7F6F700AF5B28 /* TSGoTaobaoAlertView.m */,
+				FC8D3F3B1FD7F6F700AF5B28 /* TSPullDownActionAlertView.h */,
+				FC8D3F401FD7F6F700AF5B28 /* TSPullDownActionAlertView.m */,
+				FC8D3F3A1FD7F6F600AF5B28 /* TSTaoSearchView.h */,
+				FC8D3F381FD7F6F600AF5B28 /* TSTaoSearchView.m */,
+				FC8D3F3F1FD7F6F700AF5B28 /* TSWebActionAlertView.h */,
+				FC8D3F371FD7F6F600AF5B28 /* TSWebActionAlertView.m */,
+			);
+			path = TSActionAlertViewEffects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,10 +207,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8D3F421FD7F6F700AF5B28 /* TSTaoSearchView.m in Sources */,
+				FC8D3F451FD7F6F700AF5B28 /* TSPullDownActionAlertView.m in Sources */,
 				FC103DE21F42CF5E00526E4E /* ViewController.m in Sources */,
+				FC8D3F441FD7F6F700AF5B28 /* TSGoTaobaoAlertView.m in Sources */,
 				FC103DDF1F42CF5E00526E4E /* AppDelegate.m in Sources */,
 				FC103E121F42CF7C00526E4E /* TSActionAlertView.m in Sources */,
 				FC103DDC1F42CF5E00526E4E /* main.m in Sources */,
+				FC8D3F411FD7F6F700AF5B28 /* TSWebActionAlertView.m in Sources */,
+				FC8D3F431FD7F6F700AF5B28 /* TSGoodsEditAlertView.m in Sources */,
 				FC103E161F42CF8500526E4E /* TSActionDemoView.m in Sources */,
 				FC103E131F42CF7C00526E4E /* UIWindow+SIUtils.m in Sources */,
 			);
@@ -338,6 +376,7 @@
 				FC103E061F42CF5E00526E4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
