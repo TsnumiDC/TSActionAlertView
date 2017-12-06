@@ -82,7 +82,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    if (indexPath == 0) {
+    if (indexPath.section == 0) {
         TSActionAlertViewBackgroundStyle backgroundStyle;
         TSActionAlertViewTransitionStyle transitionStyle;
         BOOL isautoHidden = NO;
