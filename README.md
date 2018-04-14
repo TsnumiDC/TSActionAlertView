@@ -2,6 +2,8 @@
 
 介绍:  TSActionAlertView 是用Objective-C实现的一个弹窗
 
+2018.4.14 增加了cocoapod的支持,可以直接用  TSActionAlertView来添加到项目中
+
 ### 1. 弹窗背景有两种  TSActionAlertViewBackgroundStyle
 
 |TSActionAlertViewBackgroundStyle|说明|
